@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<title>Introductory Creative Writing</title>
+<meta name="description" content="This free platform allows for the creation and sharing of creative writing throughout our wider community. Free help, advice and exposure available!">
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900" title="compact">
+
+
+	<!--COMMENT: the html 'link' element links a CSS file to an HTML file so that CSS styling can be applied. It uses 3 attributes. 'rel' specifies the relationship between the current file and the file being linked to, in this case stylesheet. 'type' specifies the type of file being linked to. 'href' provides the URL of the file being linked to. We have also subsequently added links for a font stylesheet, and also to a URL that hosts Bootstrap-->
+	
+	<!--COMMENT: BOOTSTRAP also adds screen width responsiveness so that when changing the size of the screen, your webpage remains in proportion-->
+	
+	<!--COMMENT: When adding a number of stylesheets, they can often interfere and overcome one another.There are several ways to counteract this. Firstly, the order: the last stylesheet will naturally be given preference. It is also possible to name the stylesheets: either 'persistent'(leave as is), 'preferred'(add "a "title="XYZ"") or 'alternate'(add a "rel="alternate stylesheet"").
+	
+	<!--COMMENT: head/h1-h6=heading elements, p=paragraph-->
+
+
+	<h1>Creative Writing</h1>
+
+</head>
+
+
+
+
+
+
+
+<body id="bootstrap-overrides">
+
+	<!--The ID "bootstrap-overrides" is given because an ID will have preference in CSS meaning that the attributes given to this ID will override those given by the Bootstrap link-->
+
+	<div class="total">
+        
+
+
+
+     <header class="container">
+         
+         <div class="row">
+             <nav class="col-sm-5"> 
+        	     <p><a href="#">Sign Up</a></p>
+        	     <p><a href="#">Search Webpage</a></p>
+        	     <p><a href="#">Help</a></p>
+             </nav>
+      
+             <ul class="col-sm-7">
+        
+                 <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg"></li>
+        
+                 <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg"></li>
+        
+                 <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg"></li>
+        
+                 <li class="col-sm-1"><img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium.svg"></li>
+        
+                </ul>
+      
+            </div>
+  
+        </header>
+
+
+
+
+		<!-- <div class="nav">
+			<h2>Menu</h2>
+			<ul> 
+			 <li>Sign Up</li>
+			 <li>Search Webpage</li>
+			 <li>About Us</li>
+			</ul>
+	
+		</div> (NAV MENU LEFT OUT, AS IT WAS SUPPLEMENTARY) -->
+
+        <div class="main">
+	     <p id="description">This is a page designed and created to showcase the creative writing skills of the page's users, including its creator, me! Simply sign up by creating an account in 4 simple stages, and then you're ready to begin posting. It's as simple as that! Here is a <a href="http://facebook.com/ben.waterman1">link</a> to my facebook page.</p>
+
+
+	     <img id="image" src="creativewriting.jpg" alt="Picture 1" style="width:640px;height:400px">
+
+
+
+	     <!--COMMENT: this image has no http:// so it is found from the same computer as the website file. It has no folder url because it is kept in the same folder-->
+
+
+
+	     <p id="submit">Submit your own creative writing now!</p>
+	     <!--COMMENT: adding an 'id' to specific elements allows you to give them CSS properties without giving the entire class that property. Allows for greater specificity-->
+        </div>  
+
+
+        <footer>
+         &copy; 2016 Ben Waterman
+         <div class="contact">
+         	<a>Contact</a>
+         </div>
+        </footer>
+
+
+
+
+
+
+    </div>
+
+
+</body>
+<html>
