@@ -1,0 +1,146 @@
+#bootstrap-overrides h1 {
+	color: BurlyWood;
+	font-family: 'Lato';
+	font-weight: 300;
+	text-align: center;
+	font-size: 50px;
+}
+
+#bootstrap-overrides {
+	color: BurlyWood;
+	font-family: Lato;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+h1 {
+	color: BurlyWood;
+	font-family: 'Lato';
+	font-weight: 300;
+	text-align: center;
+	font-size: 50px;
+
+}
+
+body {
+	background-image: url(whitebackground2.jpg);
+	background-repeat: repeat;
+	font-family: 'Lato';
+	font-weight: 300;
+	color: BurlyWood;
+	font-size: 20px;
+	text-align: center;
+}
+
+header .row {
+}
+
+header {
+	font-size: 20px;
+	padding: 40px 0;
+}
+
+header nav {
+	display: flex;
+	justify-content: flex-end;
+	/*THESE TWO PUT THE NAV ELEMENTS INTO HORIZONTAL FORM & PUSH THEM TO THE LEFT*/
+}
+
+header p {
+	padding: 0 30px 0 10px;
+}
+
+header .col-sm-7 {
+	display: flex;
+	/*justify-content: flex-end;*/
+	/*THESE TWO PUSH THE SOCIAL MEDIA LOGOS TO THE FAR RIGHT OF THE HEADER*/
+	list-style: none;
+	/*THIS REMOVES THE BULLETPOINTS FROM THE SOCIAL MEDIA UL LIST*/
+}
+
+/*header li {
+	padding:0 30px 0 30px;
+}*/
+
+header li img {
+	width: 32px;
+	height: 32px;
+}
+
+/*.nav { 
+	font-family: 'Lato';
+	margin-bottom: 50px; */
+}
+
+.main {
+	text-align: center;
+}
+
+#image {
+	border:5px solid White;
+}
+
+#description {
+	border: 0.75px solid grey;
+	padding: 40px;
+	margin-bottom: 100px;
+}
+
+#submit {
+	font-size: 25px;
+	font-weight: 50;
+}
+
+footer {
+	background-color: Beige;
+	background-size: cover; 
+	margin: 0px;
+}
+
+footer li {
+	display: inline;
+	margin: 0;
+	padding: 0 10px;
+	font-family: 'Lato';
+	font-color: white;
+}
+
+footer ul {
+	display: inline;
+	text-align: left;
+}
+
+footer a {
+	height: 200px;
+    line-height: 80px;
+    color: BurlyWood;
+}
+
+.contact {
+	float: right
+}
+
+.contact a {
+    cursor: pointer;
+    margin-right: 30px;
+    padding: 8px 18px;
+    border: 1px solid #204156;
+    position: relative;
+}
+
+.contact a:active {
+	top: 2px;
+}
+
+/* NOTE "contact a" is the selector for anchor (link) elements that have a parent with the "contact" class. 
+The "contact a:active" selector is a pseudo-class selector, which we use to style an element only while 
+it's being clicked */
+
+
+
+
+
+
+
+
+
